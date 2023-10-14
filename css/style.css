@@ -1,3 +1,11 @@
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: #34495e;
+}
+
+
 /* navbar style start */
 .navbar {
     padding: 20px;
@@ -35,11 +43,53 @@
     gap:10px;
     font-size: 20px;
     font-family: 'pacifico';
-    color:purple;
+    color:gold;
     justify-content: center;
     align-items: center;
 }
 /* banner style end */
+
+
+/* main section start */
+
+/* .slideshow {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+.middle {
+    position: absolute;
+    top:50%;
+    left: 50;
+    transform: translate(-50%, -50%);
+} */
+
+h2 {
+    font-family: 'pacifico';
+    font-size: 33px;
+    color: gold;
+    margin-bottom: 10px;
+    border-bottom: 3px solid red;
+}
+
+
+
+
+
+/* main section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -47,16 +97,19 @@
 
 /* footer style start */
 
-
-.row {
-    background-color: red;
+footer {
+    margin-top: 100px;
 }
 
 .row a {
     font-size: 30px;
-    
     font-family: 'pacifico';
     color: gold;
+}
+
+.row a:hover {
+    background-color: gold;
+    color: black;
 }
 
 /* footer style end */
