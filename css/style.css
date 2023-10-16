@@ -52,17 +52,17 @@ body {
 
 /* main section start */
 
-/* .slideshow {
-    width: 700px;
-    height: 400px;
-    overflow: hidden;
+.work {
+    background-color: white;
 }
-.middle {
-    position: absolute;
-    top:50%;
-    left: 50;
-    transform: translate(-50%, -50%);
-} */
+
+.work div {
+    background-color: white;
+}
+
+.cardContainer {
+    max-width: 30%;
+}
 
 h2 {
     font-family: 'pacifico';
