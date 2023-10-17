@@ -14,4 +14,14 @@ Below you can see a small screenshot:
 
 ![Alt text](GPbootstrap-portofolio.jpg)
 
-#
+## licence
+
+MIT License.
+
+## Help and guidance
+
+Mr Kevin Stares-Darbon has helped me understand the col-12 functions and with a freedback on my hover points.
+
+Also shout-out to LA team in AskBCS!
+
+## 
