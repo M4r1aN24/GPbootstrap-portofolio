@@ -31,9 +31,7 @@ body {
 }
 
 .navItem:hover {
-    background-color: gold;
-    color: gold;
-    
+    color: black;
 }
 /* navbar style end *
 /* banner style start */
@@ -52,14 +50,12 @@ body {
 
 /* Skills section  */
 
-
-
 /* Skills section end */
 
 /* main section start */
 
 .work {
-    gap: 80vh;
+    /* gap: 80vh; */
     padding: 10px;
     margin: 0%;
     width: 80%;
@@ -78,27 +74,30 @@ body {
 }
 
 #row1 {
-    display: relative;
     right: 10em;
 }
+
 #row2 {
     align-items: flex-end;
+    
+}
+
+#row2 img {
+    height: 300px;
 }
 
 .col-12 img {
     display: flex;
-    width: 800px;
-    height: 400px;
+    width: 100%;
     gap: 10px;
     border: 1px solid rgb(255, 238, 0);
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 10px;
     flex: 1 1 100%;
 }
 
 .col-4 img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    gap: 10px;
     border: 1px solid rgb(255, 238, 0);
     border-radius: 20px;
     padding: 5px;
@@ -114,37 +113,30 @@ h2 {
     border-bottom: 3px solid red;
 }
 
-
-
-
-
-/* main section end */
-
-footer {
-    
-    
+.work p {
+    color:gold; 
+    font-family: 'pacifico';
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* main section end */
 
 /* footer style start */
 
 footer {
     margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 .row a {
@@ -154,8 +146,10 @@ footer {
 }
 
 .row a:hover {
-    background-color: gold;
     color: black;
+    
 }
+
+
 
 /* footer style end */
